@@ -1,0 +1,70 @@
+body{
+    font-family:"Segoe UI",微软雅黑,Tahoma,Geneva,Verdana;
+    margin:0;
+    overflow: hidden;
+    background:#F5F5F5;
+}
+a,#search_btn{
+    cursor:pointer;
+    color: #333;
+}
+.headtop{
+    width:100%;
+    height:4px;
+    background:#00A1F1;
+}
+.header {
+    overflow: hidden;
+    margin: 0 auto;
+    height:70px;
+    width:950px;
+}
+.searchL{
+    float: left;
+}
+.searchM{
+    padding: 13px 0;
+}
+#search_btn{
+    color: #ffffff;
+    border: none;
+    height: 25px;
+    width:60px;
+    background: url(../images/search_btn.png);
+}
+#search_content{
+    width: 350px;
+    height: 20px;
+}
+.search__iframe,#load_iframe {
+    width:100%;
+    height:100%;
+        border:0;
+}
+.search_menu a {
+    margin-right: 16px;
+    padding:0 0 4px;
+}
+a.curr {
+        color:#00A1F1;
+        border-bottom: 2px solid #00A1F1;
+}
+a:hover {
+    color:#00A1F1;
+    border-bottom: 2px solid #00A1F1;
+}
+.search_iframe {
+    display:none;
+}
+.upordown {
+    display:none;
+}
+.search_class{
+    display:none;
+}
+.default_iframe,.default_iframe iframe {
+    margin:auto;
+    width:950px;
+    height:100%;
+    border:0;
+}
